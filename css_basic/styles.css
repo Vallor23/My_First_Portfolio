@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article {
+    flex: 2;
+    overflow-y: ;
+}
+aside {
+    flex: 1;
+    overflow-y: ;
+}
+.logo {
+    font-size: 3em; /* Adjust the size as needed */
+}
+table, th, td {
+    border: 1px solid;
+    width: 75%;
+}
+thead {
+    font-weight: bold;
+    background-color: aqua;
+}
+footer {
+    text-align: center;
+    background-color: grey;
+    opacity: 0.5;
+}
